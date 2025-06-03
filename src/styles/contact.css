@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  /* Butun bo‘lim padding va joylashuv */
+  #contact {
+    padding: 2rem 1rem;
+    margin-top: 0;
+  }
+
+  /* Grid ustma-ust qilib qo‘yiladi */
+  #grid {
+    flex-direction: column;
+    width: 100% !important;
+    gap: 2rem;
+  }
+
+  /* Form inputlar 100% bo‘ladi */
+  #int {
+    width: 100% !important;
+    padding: 10px 15px !important;
+  }
+
+  /* Send button ham 100% */
+  #inter button {
+    width: 100% !important;
+  }
+
+  /* Email va telefon qismi moslashadi */
+  #inter > div {
+    flex-direction: row;
+    gap: 1rem;
+    width: 100% !important;
+    align-items: flex-start !important;
+  }
+
+  /* Xaritani kichraytirish */
+  iframe#int {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  /* Title (sarlavha) hajmini kichraytirish */
+  #contact h1 {
+    font-size: 14px !important;
+    text-align: center;
+  }
+}

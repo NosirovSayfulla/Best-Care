@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  /* Gridni ustma-ust qilish */
+  #grid {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem; /* px-20 o‘rniga px-5 */
+    gap: 2rem;
+    justify-content: start;
+  }
+
+  /* Kartalarni keng ekranga sig‘dirish */
+  #card {
+    width: 70% !important;
+    height: auto !important;
+    padding: 1rem !important;
+  }
+
+  /* Rasmni moslash */
+  #card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Matn moslashuvchanligi */
+  #card p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

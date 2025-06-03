@@ -1,0 +1,47 @@
+.new-products-section {
+  padding: 40px 16px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #031651;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 56px;
+  }
+
+  .new-products-section {
+    padding: 40px 80px;
+  }
+}
+
+.slide-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  width: 280px;
+  height: auto;
+  max-height: 440px;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .slide-image {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slide-image {
+    width: 310px;
+  }
+}
